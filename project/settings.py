@@ -54,10 +54,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 CORS_ALLOWED_ORIGINS = [
-    "https://example.com",
-    "https://sub.example.com",
-
-
     'https://vuedjangotodo.netlify.app/'
 ]
 ROOT_URLCONF = 'project.urls'
